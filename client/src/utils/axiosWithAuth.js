@@ -8,3 +8,4 @@ export const axiosWithAuth = () => {
         }
     })
 }
+//axios with auth is used for storing the token 

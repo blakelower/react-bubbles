@@ -23,7 +23,7 @@ const ColorList = ({ colors, updateColors }) => {
     .put(`colors/${colorToEdit.id}`, colorToEdit)
     .then(res => {
       updateColors(
-        colors.map(color => color.id === colorToEdit.id ? res.data : color)
+        colors.map(color => color.id === colorToEdit.id ? res.data : color) //if we map over colors to color and retrieve color.id & colortoedit.id we are then able to... if the response of the data then get the color
       )
       setEditing(false);
     })
