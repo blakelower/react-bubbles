@@ -33,7 +33,7 @@ Create a private route for security data.
 - [ ] Describe how web servers work.
 A web server is the middle man between the front & back end.
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
-Put aka update is a great way to use the map method.
+Create=Post, Read = Get, Update = Put, Delete = Delete
 
 
 ## Project Set Up
